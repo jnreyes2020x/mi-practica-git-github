@@ -1,5 +1,5 @@
 function saludar(nombre) {
-  return `Hola, ${nombre}. Estoy aprendiendo Node, npm y GitHub 🔥`;
+  return `Hola, ${nombre}. Ya estoy trabajando con ramas y Pull Request 🚀`;
 }
 
 console.log(saludar("Jhon"));
