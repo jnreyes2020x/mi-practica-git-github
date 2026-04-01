@@ -1,5 +1,10 @@
-function saludar(nombre) {
-  return `Hola, ${nombre}. Ya estoy trabajando con ramas y Pull Request 🚀`;
+function generarSaludo(nombre) {
+  if (!nombre) {
+    return "Hola, invitado.";
+  }
+
+  return `Hola, ${nombre}. Ya estoy trabajando con buenas prácticas 🚀`;
 }
 
-console.log(saludar("Jhon"));
+const mensaje = generarSaludo("Jhon");
+console.log(mensaje);
