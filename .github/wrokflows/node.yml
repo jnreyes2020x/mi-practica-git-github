@@ -1,25 +1,15 @@
-name: Ejecutar app Node
+name: Test Actions
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
-  ejecutar:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar repositorio
-        uses: actions/checkout@v4
-
-      - name: Instalar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Instalar dependencias
-        run: npm install
-
-      - name: Ejecutar aplicación
-        run: npm start
+      - name: Mensaje de prueba
+        run: echo "Hola desde GitHub Actions"
