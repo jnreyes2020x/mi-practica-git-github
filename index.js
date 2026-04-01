@@ -3,7 +3,7 @@ function generarSaludo(nombre) {
     return "Hola, invitado.";
   }
 
-  return `Hola, ${nombre}. Ya estoy trabajando con buenas prácticas 🚀`;
+  return `Hola, ${nombre}. Ya estoy trabajando con muchas buenas prácticas 🚀`;
 }
 
 const mensaje = generarSaludo("Jhon");
