@@ -2,7 +2,8 @@ name: Ejecutar app Node
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
 
 jobs:
   ejecutar:
